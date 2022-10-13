@@ -1,0 +1,30 @@
+c:\calculadora\bin\Debug\net6.0\calculadora.exe
+c:\calculadora\bin\Debug\net6.0\calculadora.deps.json
+c:\calculadora\bin\Debug\net6.0\calculadora.runtimeconfig.json
+c:\calculadora\bin\Debug\net6.0\calculadora.dll
+c:\calculadora\bin\Debug\net6.0\calculadora.pdb
+c:\calculadora\obj\Debug\net6.0\calculadora.csproj.AssemblyReference.cache
+c:\calculadora\obj\Debug\net6.0\calculadora.GeneratedMSBuildEditorConfig.editorconfig
+c:\calculadora\obj\Debug\net6.0\calculadora.AssemblyInfoInputs.cache
+c:\calculadora\obj\Debug\net6.0\calculadora.AssemblyInfo.cs
+c:\calculadora\obj\Debug\net6.0\calculadora.csproj.CoreCompileInputs.cache
+c:\calculadora\obj\Debug\net6.0\calculadora.dll
+c:\calculadora\obj\Debug\net6.0\refint\calculadora.dll
+c:\calculadora\obj\Debug\net6.0\calculadora.pdb
+c:\calculadora\obj\Debug\net6.0\calculadora.genruntimeconfig.cache
+c:\calculadora\obj\Debug\net6.0\ref\calculadora.dll
+C:\Users\pedro.silva\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\projetos_estudos\calculadora\obj\Debug\net6.0\calculadora.csproj.AssemblyReference.cache
+C:\Users\pedro.silva\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\projetos_estudos\calculadora\obj\Debug\net6.0\calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro.silva\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\projetos_estudos\calculadora\obj\Debug\net6.0\calculadora.AssemblyInfoInputs.cache
+C:\Users\pedro.silva\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\projetos_estudos\calculadora\obj\Debug\net6.0\calculadora.AssemblyInfo.cs
+C:\Users\pedro.silva\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\projetos_estudos\calculadora\obj\Debug\net6.0\calculadora.csproj.CoreCompileInputs.cache
+C:\Users\pedro.silva\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\projetos_estudos\calculadora\obj\Debug\net6.0\calculadora.dll
+C:\Users\pedro.silva\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\projetos_estudos\calculadora\obj\Debug\net6.0\refint\calculadora.dll
+C:\Users\pedro.silva\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\projetos_estudos\calculadora\obj\Debug\net6.0\calculadora.pdb
+C:\Users\pedro.silva\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\projetos_estudos\calculadora\bin\Debug\net6.0\calculadora.exe
+C:\Users\pedro.silva\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\projetos_estudos\calculadora\bin\Debug\net6.0\calculadora.deps.json
+C:\Users\pedro.silva\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\projetos_estudos\calculadora\bin\Debug\net6.0\calculadora.runtimeconfig.json
+C:\Users\pedro.silva\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\projetos_estudos\calculadora\bin\Debug\net6.0\calculadora.dll
+C:\Users\pedro.silva\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\projetos_estudos\calculadora\bin\Debug\net6.0\calculadora.pdb
+C:\Users\pedro.silva\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\projetos_estudos\calculadora\obj\Debug\net6.0\calculadora.genruntimeconfig.cache
+C:\Users\pedro.silva\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\projetos_estudos\calculadora\obj\Debug\net6.0\ref\calculadora.dll
