@@ -1,0 +1,15 @@
+C:\formatandodata\bin\Debug\net6.0\formatandodata.exe
+C:\formatandodata\bin\Debug\net6.0\formatandodata.deps.json
+C:\formatandodata\bin\Debug\net6.0\formatandodata.runtimeconfig.json
+C:\formatandodata\bin\Debug\net6.0\formatandodata.dll
+C:\formatandodata\bin\Debug\net6.0\formatandodata.pdb
+C:\formatandodata\obj\Debug\net6.0\formatandodata.csproj.AssemblyReference.cache
+C:\formatandodata\obj\Debug\net6.0\formatandodata.GeneratedMSBuildEditorConfig.editorconfig
+C:\formatandodata\obj\Debug\net6.0\formatandodata.AssemblyInfoInputs.cache
+C:\formatandodata\obj\Debug\net6.0\formatandodata.AssemblyInfo.cs
+C:\formatandodata\obj\Debug\net6.0\formatandodata.csproj.CoreCompileInputs.cache
+C:\formatandodata\obj\Debug\net6.0\formatandodata.dll
+C:\formatandodata\obj\Debug\net6.0\refint\formatandodata.dll
+C:\formatandodata\obj\Debug\net6.0\formatandodata.pdb
+C:\formatandodata\obj\Debug\net6.0\formatandodata.genruntimeconfig.cache
+C:\formatandodata\obj\Debug\net6.0\ref\formatandodata.dll
