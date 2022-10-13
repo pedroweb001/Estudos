@@ -1,0 +1,15 @@
+C:\cpf\bin\Debug\net6.0\cpf.exe
+C:\cpf\bin\Debug\net6.0\cpf.deps.json
+C:\cpf\bin\Debug\net6.0\cpf.runtimeconfig.json
+C:\cpf\bin\Debug\net6.0\cpf.dll
+C:\cpf\bin\Debug\net6.0\cpf.pdb
+C:\cpf\obj\Debug\net6.0\cpf.csproj.AssemblyReference.cache
+C:\cpf\obj\Debug\net6.0\cpf.GeneratedMSBuildEditorConfig.editorconfig
+C:\cpf\obj\Debug\net6.0\cpf.AssemblyInfoInputs.cache
+C:\cpf\obj\Debug\net6.0\cpf.AssemblyInfo.cs
+C:\cpf\obj\Debug\net6.0\cpf.csproj.CoreCompileInputs.cache
+C:\cpf\obj\Debug\net6.0\cpf.dll
+C:\cpf\obj\Debug\net6.0\refint\cpf.dll
+C:\cpf\obj\Debug\net6.0\cpf.pdb
+C:\cpf\obj\Debug\net6.0\cpf.genruntimeconfig.cache
+C:\cpf\obj\Debug\net6.0\ref\cpf.dll
