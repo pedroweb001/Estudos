@@ -1,0 +1,15 @@
+C:\erros\bin\Debug\net6.0\erros.exe
+C:\erros\bin\Debug\net6.0\erros.deps.json
+C:\erros\bin\Debug\net6.0\erros.runtimeconfig.json
+C:\erros\bin\Debug\net6.0\erros.dll
+C:\erros\bin\Debug\net6.0\erros.pdb
+C:\erros\obj\Debug\net6.0\erros.csproj.AssemblyReference.cache
+C:\erros\obj\Debug\net6.0\erros.GeneratedMSBuildEditorConfig.editorconfig
+C:\erros\obj\Debug\net6.0\erros.AssemblyInfoInputs.cache
+C:\erros\obj\Debug\net6.0\erros.AssemblyInfo.cs
+C:\erros\obj\Debug\net6.0\erros.csproj.CoreCompileInputs.cache
+C:\erros\obj\Debug\net6.0\erros.dll
+C:\erros\obj\Debug\net6.0\refint\erros.dll
+C:\erros\obj\Debug\net6.0\erros.pdb
+C:\erros\obj\Debug\net6.0\erros.genruntimeconfig.cache
+C:\erros\obj\Debug\net6.0\ref\erros.dll
