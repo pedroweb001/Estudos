@@ -1,0 +1,15 @@
+C:\cronometro\bin\Debug\net6.0\cronometro.exe
+C:\cronometro\bin\Debug\net6.0\cronometro.deps.json
+C:\cronometro\bin\Debug\net6.0\cronometro.runtimeconfig.json
+C:\cronometro\bin\Debug\net6.0\cronometro.dll
+C:\cronometro\bin\Debug\net6.0\cronometro.pdb
+C:\cronometro\obj\Debug\net6.0\cronometro.csproj.AssemblyReference.cache
+C:\cronometro\obj\Debug\net6.0\cronometro.GeneratedMSBuildEditorConfig.editorconfig
+C:\cronometro\obj\Debug\net6.0\cronometro.AssemblyInfoInputs.cache
+C:\cronometro\obj\Debug\net6.0\cronometro.AssemblyInfo.cs
+C:\cronometro\obj\Debug\net6.0\cronometro.csproj.CoreCompileInputs.cache
+C:\cronometro\obj\Debug\net6.0\cronometro.dll
+C:\cronometro\obj\Debug\net6.0\refint\cronometro.dll
+C:\cronometro\obj\Debug\net6.0\cronometro.pdb
+C:\cronometro\obj\Debug\net6.0\cronometro.genruntimeconfig.cache
+C:\cronometro\obj\Debug\net6.0\ref\cronometro.dll
