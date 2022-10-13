@@ -1,0 +1,15 @@
+C:\formatacaodemoedas\bin\Debug\net6.0\formatacaodemoedas.exe
+C:\formatacaodemoedas\bin\Debug\net6.0\formatacaodemoedas.deps.json
+C:\formatacaodemoedas\bin\Debug\net6.0\formatacaodemoedas.runtimeconfig.json
+C:\formatacaodemoedas\bin\Debug\net6.0\formatacaodemoedas.dll
+C:\formatacaodemoedas\bin\Debug\net6.0\formatacaodemoedas.pdb
+C:\formatacaodemoedas\obj\Debug\net6.0\formatacaodemoedas.csproj.AssemblyReference.cache
+C:\formatacaodemoedas\obj\Debug\net6.0\formatacaodemoedas.GeneratedMSBuildEditorConfig.editorconfig
+C:\formatacaodemoedas\obj\Debug\net6.0\formatacaodemoedas.AssemblyInfoInputs.cache
+C:\formatacaodemoedas\obj\Debug\net6.0\formatacaodemoedas.AssemblyInfo.cs
+C:\formatacaodemoedas\obj\Debug\net6.0\formatacaodemoedas.csproj.CoreCompileInputs.cache
+C:\formatacaodemoedas\obj\Debug\net6.0\formatacaodemoedas.dll
+C:\formatacaodemoedas\obj\Debug\net6.0\refint\formatacaodemoedas.dll
+C:\formatacaodemoedas\obj\Debug\net6.0\formatacaodemoedas.pdb
+C:\formatacaodemoedas\obj\Debug\net6.0\formatacaodemoedas.genruntimeconfig.cache
+C:\formatacaodemoedas\obj\Debug\net6.0\ref\formatacaodemoedas.dll
