@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+<title>Página de teste.    </title>
+<script>
+    function teste(){
+        var pega_texto = (document.getElementById("txttroca").value);
+        document.getElementById("cabecalho").innerText = pega_texto;
+     document.getElementById("txttroca").value = "";
+    }
+</script>
+    </head>
+    <body>
+        <h1 id="cabecalho">Teste</h1>
+        <input type="text" id="txttroca">
+        <button onclick="teste()"></button>
+    </body>
+</html>
