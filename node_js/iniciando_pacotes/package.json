@@ -1,0 +1,12 @@
+{
+  "name": "iniciando_pacotes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "pedro ian",
+  "license": "ISC"
+}
