@@ -1,0 +1,4 @@
+#Esse arquivo é para ignorar a pasta node_modules
+#Caso queira baixar as dependências
+#Digite npm install
+node_modules
