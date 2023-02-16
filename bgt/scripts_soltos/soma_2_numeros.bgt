@@ -1,0 +1,6 @@
+void main(){
+int numero1 = string_to_number(input_box("primeiro", "Digite o primeiro número"));
+int numero2 = string_to_number(input_box("segundo", "Digite o segundo número"));
+int numero3 = numero1+numero2;
+alert("resultado", "O resultado da soma é:" + numero3);
+}
