@@ -19,7 +19,8 @@ module.exports = ()=>{
             email:req.body.email,
             occupation:req.body.occupation,
             cellphone:req.body.cellphone,
-            state:req.body.state,
+            phone:req.body.phone,
+            state:req.body.state
         });
         res.status(201).json(customerWalletsMock);
     }
