@@ -5,5 +5,8 @@ module.exports = app=>{
    .post(controller.saveCustomerWallets);
    
    app.route("/api/v1/customerWallets/:id")
-   .delete(controller.removeCustomerWallets);
+   .delete(controller.removeCustomerWallets)
+   .put(controller.updateCustomerWallets)
+ 
+   
 }
