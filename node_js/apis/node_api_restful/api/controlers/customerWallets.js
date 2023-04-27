@@ -2,26 +2,35 @@ const uuid = require("uuid/v4");
 
 module.exports = () => {
     const customerWalletsDB = require("../data/customer-wallets.json");
+    const customerWalletsDTO = require("../models/customerWallets");
     const controller = {}
 
     const { customerWallets: customerWalletsMock } = customerWalletsDB;
 
-    controller.listCustomerWallets = (req, res) => {
-        res.status(200).json(customerWalletsDB);
+    controller.listCustomerWallets = async (req, res) => {
+        const CW = await customerWalletsDTO.findAll()
+            .then(() => {
+                return res.status(200).json(CW);
+            })
+            .catch(() => {
+                return res.status(400).json({
+                    message: "Deu ruim.",
+                })
+            });
     }
 
-    controller.saveCustomerWallets = (req, res) => {
-        customerWalletsMock.data.push({
-            id: uuid(),
-            name: req.body.name,
-            birthDate: req.body.birthDate,
-            parentId: uuid(),
-            email: req.body.email,
-            occupation: req.body.occupation,
-            cellphone: req.body.cellphone,
-            phone: req.body.phone,
-            state: req.body.state
-        });
+    controller.saveCustomerWallets = async (req, res) => {
+            await customerWalletsDTO.create(req.body)
+            .then(()=>{
+                return res.status(200).json({
+                    message:"CustomerWallets criado com sucesso",
+                });
+            })
+            .catch(()=>{
+                return res.status(400).json({
+                    message:"Não foi possível criar o customerWallets",
+                });
+            });
         res.status(201).json(customerWalletsMock);
     }
 
@@ -61,16 +70,16 @@ module.exports = () => {
         }
         else {
             const newCustomer = {
-                id:id,
-                parentId:req.body.parentId,
-                name:req.body.name,
-                birthDate:req.body.birthDate,
-                cellphone:req.body.cellphone,
-                phone:req.body.phone,
-                email:req.body.email,
-                occupation:req.body.occupation,
-                state:req.body.state,
-                createdAt:new Date(),
+                id: id,
+                parentId: req.body.parentId,
+                name: req.body.name,
+                birthDate: req.body.birthDate,
+                cellphone: req.body.cellphone,
+                phone: req.body.phone,
+                email: req.body.email,
+                occupation: req.body.occupation,
+                state: req.body.state,
+                createdAt: new Date(),
             }
             customerWalletsMock.data.splice(foundCustomerIndex, 1, newCustomer);
             res.status(200).json({
