@@ -8,8 +8,13 @@ module.exports = () => {
     const { customerWallets: customerWalletsMock } = customerWalletsDB;
 
     controller.listCustomerWallets = async (req, res) => {
-        const CW = await customerWalletsDTO.findAll()
+        const CW = await customerWalletsDTO.findAll({
+            attributes: [
+                "name"
+            ]
+        })
             .then(() => {
+                console.log("CW: " + CW);
                 return res.status(200).json(CW);
             })
             .catch(() => {
@@ -20,18 +25,18 @@ module.exports = () => {
     }
 
     controller.saveCustomerWallets = async (req, res) => {
-            await customerWalletsDTO.create(req.body)
-            .then(()=>{
+        const { name, email, occupation } = req.body;
+        await customerWalletsDTO.create({ name, email, occupation })
+            .then(() => {
                 return res.status(200).json({
-                    message:"CustomerWallets criado com sucesso",
+                    message: "CustomerWallets criado com sucesso",
                 });
             })
-            .catch(()=>{
+            .catch(() => {
                 return res.status(400).json({
-                    message:"Não foi possível criar o customerWallets",
+                    message: "Não foi possível criar o customerWallets",
                 });
             });
-        res.status(201).json(customerWalletsMock);
     }
 
     controller.removeCustomerWallets = (req, res) => {
@@ -56,41 +61,19 @@ module.exports = () => {
         }
     }
 
-    controller.updateCustomerWallets = (req, res) => {
+    controller.updateCustomerWallets = async (req, res) => {
+        const { name, email, occupation } = req.body;
         const { id } = req.params;
 
-        const foundCustomerIndex = customerWalletsMock.data.findIndex(customer => customer.id == id);
-
-        if (foundCustomerIndex == -1) {
-            res.status(404).json({
-                message: "Cliente não encontrado.",
-                success: false,
-                customerWallets: customerWalletsMock,
-            });
-        }
-        else {
-            const newCustomer = {
-                id: id,
-                parentId: req.body.parentId,
-                name: req.body.name,
-                birthDate: req.body.birthDate,
-                cellphone: req.body.cellphone,
-                phone: req.body.phone,
-                email: req.body.email,
-                occupation: req.body.occupation,
-                state: req.body.state,
-                createdAt: new Date(),
-            }
-            customerWalletsMock.data.splice(foundCustomerIndex, 1, newCustomer);
-            res.status(200).json({
-                message: "Cliente atualizado com sucesso!",
-                sucess: true,
-                customerWallets: customerWalletsMock,
-            });
+        try {
+            const CW = await customerWalletsDTO.update(
+                { name: name, email: email, occupation: occupation },
+                { where: { id: id } });
+            return res.status(200).json(CW);
+        } catch {
+            return res.status(400).json({message: "Deu ruim"});
         }
     }
-
-
-
+    
     return controller;
 }
