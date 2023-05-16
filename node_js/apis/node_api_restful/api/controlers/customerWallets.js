@@ -5,8 +5,6 @@ module.exports = () => {
     const customerWalletsDTO = require("../models/customerWallets");
     const controller = {}
 
-    const { customerWallets: customerWalletsMock } = customerWalletsDB;
-
     controller.listCustomerWallets = async (req, res) => {
         const CW = await customerWalletsDTO.findAll({
             attributes: [
@@ -39,25 +37,20 @@ module.exports = () => {
             });
     }
 
-    controller.removeCustomerWallets = (req, res) => {
+    controller.removeCustomerWallets = async (req, res) => {
         const { id } = req.params;
 
-        const foundCustomerIndex = customerWalletsMock.data.findIndex(customer => customer.id == id);
-
-        if (foundCustomerIndex == -1) {
-            res.status(404).json({
-                message: "Cliente não encontrado.",
-                success: false,
-                customerWallets: customerWalletsMock,
+        try {
+            const cw = await customerWalletsDTO.destroy({
+                where:{
+                    id:id
+                }
             });
+            return res.status(200).json(cw);
         }
-        else {
-            customerWalletsMock.data.splice(foundCustomerIndex, 1);
-            res.status(200).json({
-                message: "Cliente removido com sucesso!",
-                sucess: true,
-                customerWallets: customerWalletsMock,
-            });
+        catch
+        {
+            return res.status(400).json({ message: "Deu ruim" });
         }
     }
 
@@ -68,12 +61,17 @@ module.exports = () => {
         try {
             const CW = await customerWalletsDTO.update(
                 { name: name, email: email, occupation: occupation },
-                { where: { id: id } });
+                { where:
+                     { id: id }
+                     });
             return res.status(200).json(CW);
-        } catch {
-            return res.status(400).json({message: "Deu ruim"});
+        }
+         catch {
+            return res.status(400).json({
+                 message: "Deu ruim"
+                 });
         }
     }
-    
+
     return controller;
 }
