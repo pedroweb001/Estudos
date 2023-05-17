@@ -6,20 +6,17 @@ module.exports = () => {
     const controller = {}
 
     controller.listCustomerWallets = async (req, res) => {
-        const CW = await customerWalletsDTO.findAll({
-            attributes: [
-                "name"
-            ]
-        })
-            .then(() => {
-                console.log("CW: " + CW);
-                return res.status(200).json(CW);
+        try {
+            const CW = await customerWalletsDTO.findAll()
+            console.log("CW: " + CW);
+            return res.status(200).json(CW);
+        }
+        catch
+        {
+            return res.status(400).json({
+                message: "Deu ruim.",
             })
-            .catch(() => {
-                return res.status(400).json({
-                    message: "Deu ruim.",
-                })
-            });
+        }
     }
 
     controller.saveCustomerWallets = async (req, res) => {
@@ -42,8 +39,8 @@ module.exports = () => {
 
         try {
             const cw = await customerWalletsDTO.destroy({
-                where:{
-                    id:id
+                where: {
+                    id: id
                 }
             });
             return res.status(200).json(cw);
@@ -61,15 +58,16 @@ module.exports = () => {
         try {
             const CW = await customerWalletsDTO.update(
                 { name: name, email: email, occupation: occupation },
-                { where:
-                     { id: id }
-                     });
+                {
+                    where:
+                        { id: id }
+                });
             return res.status(200).json(CW);
         }
-         catch {
+        catch {
             return res.status(400).json({
-                 message: "Deu ruim"
-                 });
+                message: "Deu ruim"
+            });
         }
     }
 
