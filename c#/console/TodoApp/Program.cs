@@ -1,17 +1,19 @@
 ﻿using System;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using TodoApp.data;
 using TodoApp.models;
+
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<TodoContext>();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-var app = builder.build();
+var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
@@ -30,7 +32,7 @@ using (var scope = app.Services.CreateScope())
 app.MapGet("/todos", async (TodoContext context) =>
 {
     var todos = await context.Todos.ToListAsync();
-    await context.Response.WriteAsJsonAsync(todos);
+return todos is not null? Results.Ok(todos):Results.NotFound();
 });
 
 app.MapPost("/todos", async (Todo todo, TodoContext context) =>
@@ -38,7 +40,8 @@ app.MapPost("/todos", async (Todo todo, TodoContext context) =>
     todo.Id = Guid.NewGuid();
     context.Todos.Add(todo);
     await context.SaveChangesAsync();
-    context.Response.StatusCode = StatusCodes.Status201Created;
+    var todos = await context.Todos.ToListAsync();
+return Results.Created("/todos", todos);
 });
 
 app.MapPut("/todos/{id}", async (Guid id, Todo todo, TodoContext context) =>
