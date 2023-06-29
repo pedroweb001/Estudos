@@ -70,20 +70,12 @@ else{
 printf("Você perdeu!");
 printf("Você fez %.2f pontos \n", pontos);
 }
-int resposta_jogador;
+char resposta_jogador;
 printf("Você deseja jogar novamente? Tecle 1 para sim, 2 para não:");
-scanf("%d", &resposta_jogador);
-switch(resposta_jogador){
-case 1:
-main();
-break;
-case 2:
-printf("Obrigado por participar. Até a próxima!\n");
-exit(0);
-break;
-default:
-printf("Opção inválida!");
-break;
+scanf("%s", &resposta_jogador);
+while (resposta_jogador !'n' && resposta_jogador 's'){
+printf("Você deseja jogar novamente? Tecle 1 para sim, 2 para não:");
+scanf("%s", &resposta_jogador);
 }
 return 0;
 }
