@@ -28,3 +28,18 @@ C:\Users\pedro.silva\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S
 C:\Users\pedro.silva\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\projetos_estudos\calculadora\bin\Debug\net6.0\calculadora.pdb
 C:\Users\pedro.silva\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\projetos_estudos\calculadora\obj\Debug\net6.0\calculadora.genruntimeconfig.cache
 C:\Users\pedro.silva\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\projetos_estudos\calculadora\obj\Debug\net6.0\ref\calculadora.dll
+c:\dev\pessoal\estudos\c#\console\calculadora\bin\Debug\net6.0\calculadora.exe
+c:\dev\pessoal\estudos\c#\console\calculadora\bin\Debug\net6.0\calculadora.deps.json
+c:\dev\pessoal\estudos\c#\console\calculadora\bin\Debug\net6.0\calculadora.runtimeconfig.json
+c:\dev\pessoal\estudos\c#\console\calculadora\bin\Debug\net6.0\calculadora.dll
+c:\dev\pessoal\estudos\c#\console\calculadora\bin\Debug\net6.0\calculadora.pdb
+c:\dev\pessoal\estudos\c#\console\calculadora\obj\Debug\net6.0\calculadora.csproj.AssemblyReference.cache
+c:\dev\pessoal\estudos\c#\console\calculadora\obj\Debug\net6.0\calculadora.GeneratedMSBuildEditorConfig.editorconfig
+c:\dev\pessoal\estudos\c#\console\calculadora\obj\Debug\net6.0\calculadora.AssemblyInfoInputs.cache
+c:\dev\pessoal\estudos\c#\console\calculadora\obj\Debug\net6.0\calculadora.AssemblyInfo.cs
+c:\dev\pessoal\estudos\c#\console\calculadora\obj\Debug\net6.0\calculadora.csproj.CoreCompileInputs.cache
+c:\dev\pessoal\estudos\c#\console\calculadora\obj\Debug\net6.0\calculadora.dll
+c:\dev\pessoal\estudos\c#\console\calculadora\obj\Debug\net6.0\refint\calculadora.dll
+c:\dev\pessoal\estudos\c#\console\calculadora\obj\Debug\net6.0\calculadora.pdb
+c:\dev\pessoal\estudos\c#\console\calculadora\obj\Debug\net6.0\calculadora.genruntimeconfig.cache
+c:\dev\pessoal\estudos\c#\console\calculadora\obj\Debug\net6.0\ref\calculadora.dll
