@@ -14,7 +14,8 @@ void menu()
     Console.WriteLine("2: Subtrair");
     Console.WriteLine("3: Dividir");
     Console.WriteLine("4: Multiplicar");
-    opcao = int.Parse(Console.ReadLine());
+    Console.WriteLine("5: sair");
+opcao = int.Parse(Console.ReadLine());
     valida_opcao(opcao);
 }
 
@@ -27,6 +28,7 @@ int valida_opcao(int opc)
         Console.WriteLine("2: Subtrair");
         Console.WriteLine("3: Subtrair");
         Console.WriteLine("4: Multiplicar");
+        Console.WriteLine("5: sair");
         opc = int.Parse(Console.ReadLine());
     }
     verifica_opcao_escolhida(opc);
