@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fYlnojKvpMK+3z0ZvQXLAsG89K1cEick9xMqZSeNbuZzkQZtxVTrQAe17mXmtkK8/bGyXFNyto3Ospx8583Tuw==",
+  "dgSpecHash": "C7iITm3zab4cOOuzXOCbJ7IqrYJFLd0zpRUEJFeEkQKToIBI1pJj3JOkrw7Ehz3a6rZgaY7u0fEFBqPC1pzPvQ==",
   "success": true,
-  "projectFilePath": "c:\\dev\\pessoal\\estudos\\c#\\console\\TodoApp\\TodoApp.csproj",
+  "projectFilePath": "C:\\dev\\pessoal\\estudos\\c#\\console\\TodoApp\\TodoApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pedro.silva\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\pedro.silva\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.5\\microsoft.data.sqlite.core.7.0.5.nupkg.sha512",
